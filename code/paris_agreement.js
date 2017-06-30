@@ -198,27 +198,27 @@ function tooltext(type, tooltip){
         return tooltip.style("visibility", "visible");
     }
     if (type == "United States") {
-        tooltip.html("<b>United States</b>:"+ "<br>"  + "- Produces 22% of "+ "<span <br><img src='../picture/world_bol.png' width='20' height='20'></span>" + " emissions" + "<br>" + "- Has to reduce 2.96 gig CO₂ in 2030")
+        tooltip.html("<b>United States</b>:"+ "<br>"  + "- Produces 22% of "+ "<span <br><img src='../pictures/world_bol.png' width='20' height='20'></span>" + " emissions" + "<br>" + "- Has to reduce 2.96 gig CO₂ in 2030")
         table_1("United States");
         return tooltip.style("visibility", "visible");
     }
     if (type == "Europe") {
-        tooltip.html("<b>Europe</b>:"+ "<br>"  + "- Produces 11% of "+ "<span <br><img src='../picture/world_bol.png' width='20' height='20'></span>" + " emissions" + "<br>" + "- Has to reduce 1.4 gig CO₂ in 2030")
+        tooltip.html("<b>Europe</b>:"+ "<br>"  + "- Produces 11% of "+ "<span <br><img src='../pictures/world_bol.png' width='20' height='20'></span>" + " emissions" + "<br>" + "- Has to reduce 1.4 gig CO₂ in 2030")
         table_1("Europe");
         return tooltip.style("visibility", "visible");
     }
     if (type == "China") {
-        tooltip.html("<b>China</b>:"+ "<br>"  + "- Produces 26% of "+ "<span <br><img src='../picture/world_bol.png' width='20' height='20'></span>" + " emissions" + "<br>" + "- Has to reduce 3.45 gig CO₂ in 2030")
+        tooltip.html("<b>China</b>:"+ "<br>"  + "- Produces 26% of "+ "<span <br><img src='../pictures/world_bol.png' width='20' height='20'></span>" + " emissions" + "<br>" + "- Has to reduce 3.45 gig CO₂ in 2030")
         table_1("China");
         return tooltip.style("visibility", "visible");
     }
     if (type == "Developed countries") {
-        tooltip.html("<b>Developed countries</b>:"+ "<br>"  + "- Producing 18% of "+ "<span <br><img src='../picture/world_bol.png' width='20' height='20'></span>" + " emissions" + "<br>" + "- Has to reduce 2.45 gig CO₂ in 2030")
+        tooltip.html("<b>Developed countries</b>:"+ "<br>"  + "- Producing 18% of "+ "<span <br><img src='../pictures/world_bol.png' width='20' height='20'></span>" + " emissions" + "<br>" + "- Has to reduce 2.45 gig CO₂ in 2030")
         table_1("Developed countries");
         return tooltip.style("visibility", "visible");
     }
     if (type == "Developing countries") {
-        tooltip.html("<b>Developing countries</b>:"+ "<br>"  + "- Producing 23% of "+ "<span <br><img src='../picture/world_bol.png' width='20' height='20'></span>" + " emissions" + "<br>" + "- Has to reduce 3.04 gig CO₂ in 2030")
+        tooltip.html("<b>Developing countries</b>:"+ "<br>"  + "- Producing 23% of "+ "<span <br><img src='../pictures/world_bol.png' width='20' height='20'></span>" + " emissions" + "<br>" + "- Has to reduce 3.04 gig CO₂ in 2030")
         table_1("Developing countries");
         return tooltip.style("visibility", "visible");
     }
