@@ -321,7 +321,7 @@ function table_1(country, dataSet) {
      var table = $('#example1').DataTable( {
 		paging: false,
 		select: true,
-        "data": "dataSet,
+        "data": dataSet,
         "columns": [	
             { "title": "Contributor" },
             { "title": "Announced '17" },
