@@ -42,8 +42,8 @@ var yAxis = d3.axisLeft()
 
 // load the files
 d3.queue()
-    .defer(d3.csv, 'renewables_ge.csv')
-    .defer(d3.json, 'world.json')
+    .defer(d3.csv, '/eindproject/data/renewables_ge.csv')
+    .defer(d3.json, '/eindproject/data/world.json')
     .awaitAll(initialize)
     
 var color = d3.scaleThreshold()
