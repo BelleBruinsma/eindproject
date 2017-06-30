@@ -316,7 +316,7 @@ var dataSet = [
         ['Developing countries','$26.31','$14.41']
 ];
 
-function table_1(country, dataSet) {
+function table_1(country) {
 	$('#demo1').html( '<table cellpadding="0" cellspacing="0" border="0" class="display" id="example1""></table>' );
      var table = $('#example1').DataTable( {
 		paging: false,
